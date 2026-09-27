@@ -1,6 +1,6 @@
 # Big bold beautiful comic book-style cursors for macOS
 
-<img src="./assets/screenshot.png" width="960" height="720">
+<img src="./assets/screenshot.png" width="800" height="720">
 
 - Larger, easier to see.
 - Better arrow proportions.
