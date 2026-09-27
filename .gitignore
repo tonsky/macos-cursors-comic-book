@@ -1,1 +1,4 @@
 *.app
+*.cape
+*.zip
+sequoia-default
