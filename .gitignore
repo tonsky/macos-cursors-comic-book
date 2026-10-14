@@ -2,3 +2,4 @@
 *.cape
 *.zip
 sequoia-default
+!ComicBook.cape

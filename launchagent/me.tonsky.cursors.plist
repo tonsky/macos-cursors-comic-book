@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Template: install.sh replaces __DIR__ and __LOG__ with absolute paths. -->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>me.tonsky.cursors</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>__DIR__/capeapply</string>
+        <string>--watch</string>
+        <string>__DIR__/ComicBook.cape</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>ProcessType</key>
+    <string>Interactive</string>
+    <key>StandardErrorPath</key>
+    <string>__LOG__</string>
+</dict>
+</plist>
